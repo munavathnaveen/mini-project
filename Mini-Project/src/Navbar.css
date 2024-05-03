@@ -1,0 +1,89 @@
+/* Navbar.css */
+
+.navbarnav {
+    position: sticky;
+    top: 0;
+    background-color: #333131;
+    padding: 0px 0px;
+    z-index: 1000;
+   height: 15vh;
+   width: 100vw;
+}
+
+.containernav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 67px;
+    /* Adjust the height of the logo as needed */
+    width: auto;
+    /* Maintain aspect ratio */
+    border-radius: 5px;
+    /* padding-left: 10px; */
+    margin-left: 15px;
+
+}
+
+.nav-links {
+    list-style: none;
+    /* margin-bottom: 100px!important; */
+    padding: 0;
+  
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links li a.active {
+    color: #ffcc00;
+    /* Change color for active link */
+}
+
+.buttonsnav {
+    margin-top: 30px;
+    margin-left: 10px;
+   
+    /* margin-bottom: 100px!important; */
+}
+
+.btnnav {
+    display: inline-block;
+    background-color: #d2ae1d;
+    color: #af6565;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+.clickbtn1{
+    margin-right: 10px;
+    background-color: #b39728;
+}
+.clickbtn2{
+    background-color: #f6ce2d;
+}
+
+.addlist{
+    color: #ffcc00;
+}

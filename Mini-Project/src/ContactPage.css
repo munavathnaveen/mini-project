@@ -1,0 +1,63 @@
+/* ContactPage.css */
+
+.contact-container {
+    display: flex;
+    /* padding: 50px 20px; */
+    padding-left: 5%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10%;
+    margin-top: 5%;
+    border: 2px solid rgb(173, 121, 121);
+    border-radius: 5px;
+}
+.contactPhoto{
+    width: 50%;
+    height: 500px;
+    background-image: url('assets/room4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 400px; */
+    width: 50%;
+    margin-right: 10%;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #e6b800;
+}
+

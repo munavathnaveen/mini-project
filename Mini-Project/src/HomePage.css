@@ -1,0 +1,461 @@
+/* HomePage.css */
+
+/* Set the height of the viewport to 100vh (viewport height) */
+html,
+body,
+#root {
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links li a.active {
+    color: #ffcc00;
+    /* Change color for active link 
+} */
+
+/* Hero section styles */
+.home {
+    background-image: url('assets/bg1.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 70vh;
+    width:100vw;
+    /* Adjust navbar height */
+}
+
+.home-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Button styles */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+}
+
+/* Search bar styles */
+.search-container {
+    /* position: relative; */
+    display: flex;
+    margin-top: 40px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+.search-bar {
+    background-size: 20px 20px;
+    background-position: 10px center;
+    background-repeat: no-repeat; 
+    padding-left: 40px ;
+    width: 40px;
+    padding: 20px 20px 20px 60px; /* Adjust padding to accommodate the icon */
+    border: 3px solid #ccc;
+    border-radius: 35px;
+    outline: none;
+    background-color:rgba(144, 45, 45, 0.117); /* Background color for input field */
+    background-image: url('./assets/loupe.png'); /* Background image for search icon */
+    background-size: 20px; /* Size of the search icon */
+    background-position: 20px center; /* Position of the search icon */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+}
+
+.search-bar:focus {
+    border-color: #007bff;
+}
+.search-button-home{
+    margin-left:50px!important;
+    background-color: #bbff00;
+    text-decoration: none;
+    padding: 2% 5%;
+    border-radius: 5px;
+
+}
+.search-button-home:active{
+    text-decoration: none;
+}
+
+.heading{
+    text-align: center;
+}
+
+.Homemaincard {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures cards wrap to next line if necessary */
+    padding: 20px; 
+}
+
+/* HomePage.css */
+
+.home-card {
+    position: relative;
+    height: 300px; /* Set height of the cards */
+    width: 275px; /* Set width of the cards */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    /* background-color: #ccc; Add background color for visibility */
+    border: 2px solid red;
+    border-radius: 25px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: transform 0.3s, filter 0.3s; /* Add transition for smooth effect */
+    overflow: hidden; /* Ensure text doesn't overflow */
+} 
+
+.home-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    filter: blur(2px); 
+}
+
+.card1 {
+    background-image: url('assets/charminar1.jpg'); 
+    background-size: cover;
+    background-position: center;
+}    
+
+.card2 {
+    background-image: url('assets/banglore.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background-image: url('assets/gate3.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.card1 h3 {
+    position: absolute; /* Position text absolutely */
+    bottom: 25px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    right: 0;
+    text-align: center; /* Center text */
+    color: white; /* Adjust text color */
+}
+.card2 h3 {
+    position: absolute; /* Position text absolutely */
+    bottom: 25px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    right: 0;
+    text-align: center; /* Center text */
+    color: white; /* Adjust text color */
+}
+.card3 h3 {
+    position: absolute; /* Position text absolutely */
+    bottom: 25px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    right: 0;
+    text-align: center; /* Center text */
+    color: white; /* Adjust text color */
+}
+
+.card:hover h3 {
+    top: 50%; /* Move the text to the center vertically */
+}
+footer{
+    background-color: #ccc;
+}
+.foot-content{
+    padding:0% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links a{
+    display: flex;
+    flex-direction: column;
+}
+/* HomePage.css */
+
+/* Set the height of the viewport to 100vh (viewport height) */
+html,
+body,
+#root {
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+/* Navbar styles */
+/* .navbar {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+} */
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links li a.active {
+    color: #ffcc00;
+    /* Change color for active link */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('assets/bg1.jpg');
+    /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    height: 70vh;
+    width:100vw;
+    /* Adjust navbar height */
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Button styles */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #e6b800;
+}
+
+/* Search bar styles */
+.search-container {
+    position: relative;
+    margin-top: 40px;
+}
+
+.search-bar {
+    width: 800px !important;
+    padding: 20px 20px 20px 60px; /* Adjust padding to accommodate the icon */
+    border: 3px solid #ccc;
+    border-radius: 35px;
+    outline: none;
+    background-color:rgba(144, 45, 45, 0.117); /* Background color for input field */
+    background-image: url('./assets/loupe.png'); /* Background image for search icon */
+    background-size: 20px; /* Size of the search icon */
+    background-position: 20px center; /* Position of the search icon */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+}
+
+.search-bar:focus {
+    border-color: #007bff;
+}
+
+.heading{
+    text-align: center;
+}
+
+.maincard {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures cards wrap to next line if necessary */
+    padding: 20px; 
+}
+
+/* HomePage.css */
+
+.card {
+    position: relative;
+    height: 300px; /* Set height of the cards */
+    width: 275px; /* Set width of the cards */
+    margin-bottom: 10px; /* Adjust margin as needed */
+    /* background-color: #ccc; Add background color for visibility */
+    border: 2px solid red;
+    border-radius: 25px; 
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: transform 0.3s, filter 0.3s; /* Add transition for smooth effect */
+    overflow: hidden; /* Ensure text doesn't overflow */
+} 
+
+.card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    filter: blur(2px); 
+}
+
+.card1 {
+    background-image: url('assets/charminar1.jpg'); 
+    background-size: cover;
+    background-position: center;
+}    
+
+.card2 {
+    background-image: url('assets/banglore.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background-image: url('assets/gate3.jpg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.card1 h3 {
+    position: absolute; /* Position text absolutely */
+    bottom: 25px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    right: 0;
+    text-align: center; /* Center text */
+    color: white; /* Adjust text color */
+}
+.card2 h3 {
+    position: absolute; /* Position text absolutely */
+    bottom: 25px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    right: 0;
+    text-align: center; /* Center text */
+    color: white; /* Adjust text color */
+}
+.card3 h3 {
+    position: absolute; /* Position text absolutely */
+    bottom: 25px; /* Adjust vertical position */
+    left: 0; /* Center horizontally */
+    right: 0;
+    text-align: center; /* Center text */
+    color: white; /* Adjust text color */
+}
+
+.card:hover h3 {
+    top: 50%; /* Move the text to the center vertically */
+}
+footer{
+    background-color: #ccc;
+    /* height: 30vh; */
+    /* width: 100vw; */
+}
+.foot-content{
+    padding:0% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.card:hover h3 {
+    color: white; /* Change text color on hover */
+    text-shadow: 9px 9px 9px rgba(0, 0, 0, 0.013); /* Add text shadow on hover */
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out; /* Add transition effect */
+    position: relative; /* Set position to relative */
+    z-index: 1; /* Set a higher z-index */
+    transform: translateY(-50%); /* Move the text up by 50% of its own height */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+    padding: 10px; /* Add padding for better readability */
+}
+

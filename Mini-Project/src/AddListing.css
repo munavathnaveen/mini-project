@@ -1,0 +1,193 @@
+.add-room-details {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 70%;
+  height: 200vh;
+  margin: 0 auto;
+  text-align: center;
+  /* text-wrap: center; */
+}
+
+.add-room-details h1,
+.add-room-details p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+  padding: 5px;
+}
+
+.form-group p {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.add-room-details button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin-top: 20px;
+}
+
+.add-room-details button:hover {
+  background-color: #3e8e41;
+}
+
+.highlightbtn {
+  height: 20vh;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.highlight-row {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.perk1 {
+  background-color: #aaa;
+  color: black;
+  /* height: 25px; */
+  border-radius: 20px;
+  font-size: small;
+  padding: 8px;
+}
+
+.amenities {
+  height: auto;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.amen-row {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: 7px;
+  margin-top: 3px;
+}
+
+.amenity {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 50%; /* Make the circle */
+  padding: 15px; /* Increase padding for circle effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.amenity img {
+  width: 40px;
+  height: 40px;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Description-container{
+  height: 10%;
+  width: 100%;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+
+.submitbtn {
+  background-color: green;
+  color: black;
+  height: 25px;
+  width: 120px;
+  border-radius: 20px;
+  font-size: small;
+  padding: 6px;
+  margin: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.Descrptionarea{
+  width: 100vh;
+  height: 20vh;
+}
+.preferences {
+  height: auto;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.pref-row {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  margin: 7px;
+  margin-top: 3px;
+}
+
+.preference {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 50%; /* Make the circle */
+  padding: 15px; /* Increase padding for circle effect */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preference img {
+  width: 40px;
+  height: 40px;
+}
+.selected{
+  background-color: lightblue !important;
+}
+.gobaack{
+  width: 70px;
+  height: 70px;
+}
+.close-icon{
+  margin-left: 95%;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
